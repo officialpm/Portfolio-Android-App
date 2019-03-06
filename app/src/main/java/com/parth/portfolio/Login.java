@@ -13,6 +13,12 @@ public class Login extends AppCompatActivity {
     Button register;
 
     @Override
+    public void onBackPressed() {
+        startActivity(new Intent(Login.this,Choose.class));
+        finish();
+    }
+
+    @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 

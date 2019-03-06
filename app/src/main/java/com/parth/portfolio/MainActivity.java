@@ -33,6 +33,13 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
+
+    @Override
+    public void onBackPressed() {
+        startActivity(new Intent(MainActivity.this,Choose.class));
+        finish();
+    }
+
     Button register,ar;
     EditText name,email,password,mobno,pass,cpass;
     private static String Register_URL="https://medicaljava.000webhostapp.com/register.php";
