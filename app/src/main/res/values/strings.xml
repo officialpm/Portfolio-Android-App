@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Portfolio</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_number">Mobile Number</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="txt_ar">Already Registered? Sign In Now</string>
+    <string name="txt_reg">Register</string>
+    <string name="txt_lgn">LOGIN</string>
+</resources>
